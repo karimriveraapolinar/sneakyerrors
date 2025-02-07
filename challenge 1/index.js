@@ -1,37 +1,34 @@
 function checkEvenOdd(number) {
   if (number % 2 === 0) {
-    return "Even";
+    return "Even"
   } else {
-    return "Odd";
+    return "Odd"
   }
 }
 
-// Example usage
-let number = parseInt(prompt("Enter a number:"));
-console.log(`The number ${number} is ${checkEvenOdd(number)}.`);
+let number = parseInt(prompt("Enter a number:"))
+console.log(`The number ${number} is ${checkEvenOdd(number)}.`)
 
 function checkVotingEligibility(age) {
   if (age >= 18) {
-    return "Eligible to vote";
+    return "Eligible to vote"
   } else {
-    return "Not eligible to vote";
+    return "Not eligible to vote"
   }
 }
 
-// Example usage
-let age = parseInt(prompt("Enter your age:"));
-console.log(`You are ${checkVotingEligibility(age)}.`);
+let age = parseInt(prompt("Enter your age:"))
+console.log(`You are ${checkVotingEligibility(age)}.`)
 
 function checkNumberSign(number) {
   if (number > 0) {
-    return "Positive";
+    return "Positive"
   } else if (number < 0) {
-    return "Negative";
+    return "Negative"
   } else {
-    return "Zero";
+    return "Zero"
   }
 }
 
-// Example usage
-number = parseInt(prompt("Enter a number:"));
-console.log(`The number ${number} is ${checkNumberSign(number)}.`);
+number = parseInt(prompt("Enter a number:"))
+console.log(`The number ${number} is ${checkNumberSign(number)}.`)

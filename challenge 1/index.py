@@ -4,7 +4,7 @@ def check_even_odd(number):
     else:
         return "Odd"
 
-# Example usage
+
 number = int(input("Enter a number: "))
 print(f"The number {number} is {check_even_odd(number)}.")
 
@@ -15,18 +15,17 @@ def check_voting_eligibility(age):
     else:
         return "Not eligible to vote"
 
-# Example usage
+
 age = int(input("Enter your age: "))
 print(f"You are {check_voting_eligibility(age)}.")
 
 def check_number_sign(number):
-    if number > 0:
+    if number >= 0:
         return "Positive"
     elif number < 0:
         return "Negative"
     else:
         return "Zero"
 
-# Example usage
 number = int(input("Enter a number: "))
 print(f"The number {number} is {check_number_sign(number)}.")
